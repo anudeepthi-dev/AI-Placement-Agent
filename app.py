@@ -182,9 +182,8 @@ Week 4
         )
 
     except Exception as e:
-        st.error("❌ AI Service is busy or quota exceeded.")
-        st.info("Please wait and click Analyze again.")
-
+       st.error("❌ Error occurred")
+       st.write(e)
 
 # ----------------------------
 # Progress Tracker
